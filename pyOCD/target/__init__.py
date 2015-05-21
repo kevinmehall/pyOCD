@@ -34,6 +34,7 @@ import target_stm32f103rc
 import target_stm32f051
 import target_maxwsnenv
 import target_max32600mbed
+import target_samd
 
 TARGET = {
           'cortex_m': cortex_m.CortexM,
@@ -55,4 +56,5 @@ TARGET = {
           'stm32f051': target_stm32f051.STM32F051,
           'maxwsnenv': target_maxwsnenv.MAXWSNENV,
           'max32600mbed': target_max32600mbed.MAX32600MBED,
+          'samd': target_samd.SAMD,
          }

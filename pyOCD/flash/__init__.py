@@ -29,6 +29,7 @@ from flash_stm32f103rc import Flash_stm32f103rc
 from flash_stm32f051 import Flash_stm32f051
 from flash_maxwsnenv import Flash_maxwsnenv
 from flash_max32600mbed import Flash_max32600mbed
+from flash_samd import Flash_samd
 
 FLASH = {
          'cortex_m' : Flash_cortex_m,
@@ -49,4 +50,5 @@ FLASH = {
          'stm32f051': Flash_stm32f051,
          'maxwsnenv': Flash_maxwsnenv,
          'max32600mbed': Flash_max32600mbed,
+         'samd': Flash_samd,
          }
